@@ -8,5 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/aliciaVillon/ms-admin-server-data
+          uri: https://github.com/aliciaVillon/ms-admin-server-data.git
           clone-on-start: true
+          default-label: master

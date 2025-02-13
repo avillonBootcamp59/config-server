@@ -1,0 +1,124 @@
+2025-02-11 18:16:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 18:16:45 [main] INFO  p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 10804 (C:\Proyecto-1\config-server\target\classes started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 18:16:45 [main] INFO  p.m.MsconfigserverApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 18:16:46 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f608e4a0-ab30-3300-a263-73eb81bfc8d9
+2025-02-11 18:16:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-02-11 18:16:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-02-11 18:16:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-11 18:16:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-11 18:16:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-11 18:16:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1521 ms
+2025-02-11 18:16:51 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 18:16:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-02-11 18:16:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-02-11 18:16:51 [main] INFO  p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.797 seconds (JVM running for 7.14)
+2025-02-11 18:16:54 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-11 18:16:54 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-11 18:16:54 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-02-11 18:16:56 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-3727031804356272994\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-3727031804356272994/'
+2025-02-11 18:16:56 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-3727031804356272994\application.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-3727031804356272994/'
+2025-02-11 18:21:12 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\avillonc\AppData\Local\Temp\config-repo-3727031804356272994\.git\objects\pack\pack-4f5810b585b99e0a8b611c282b9d73678ec00d16.idx
+2025-02-11 18:25:43 [main] INFO  p.m.MsconfigserverApplicationTests - Starting MsconfigserverApplicationTests using Java 17.0.14 on NTTD-C6JKR54 with PID 19904 (started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 18:25:43 [main] INFO  p.m.MsconfigserverApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 18:25:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 18:25:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2bb2e2a-b34a-3c35-9768-e7a5fb32b11a
+2025-02-11 18:25:52 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 18:25:52 [main] INFO  p.m.MsconfigserverApplicationTests - Started MsconfigserverApplicationTests in 9.427 seconds (JVM running for 10.211)
+2025-02-11 18:32:44 [main] INFO  p.m.MsconfigserverApplicationTests - Starting MsconfigserverApplicationTests using Java 11.0.25 on NTTD-C6JKR54 with PID 6920 (started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 18:32:44 [main] INFO  p.m.MsconfigserverApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 18:32:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 18:32:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2bb2e2a-b34a-3c35-9768-e7a5fb32b11a
+2025-02-11 18:32:50 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 18:32:50 [main] INFO  p.m.MsconfigserverApplicationTests - Started MsconfigserverApplicationTests in 6.712 seconds (JVM running for 7.407)
+2025-02-11 18:33:02 [main] INFO  p.m.MsconfigserverApplicationTests - Starting MsconfigserverApplicationTests using Java 17.0.14 on NTTD-C6JKR54 with PID 16288 (started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 18:33:02 [main] INFO  p.m.MsconfigserverApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 18:33:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 18:33:03 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2bb2e2a-b34a-3c35-9768-e7a5fb32b11a
+2025-02-11 18:33:08 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 18:33:08 [main] INFO  p.m.MsconfigserverApplicationTests - Started MsconfigserverApplicationTests in 6.107 seconds (JVM running for 6.813)
+2025-02-11 18:33:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 18:33:18 [main] INFO  p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.14 on NTTD-C6JKR54 with PID 292 (C:\Proyecto-1\config-server\target\classes started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 18:33:18 [main] INFO  p.m.MsconfigserverApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 18:33:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f608e4a0-ab30-3300-a263-73eb81bfc8d9
+2025-02-11 18:33:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-02-11 18:33:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-02-11 18:33:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-11 18:33:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-11 18:33:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-11 18:33:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 825 ms
+2025-02-11 18:33:22 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 18:33:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-02-11 18:33:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-02-11 18:33:22 [main] INFO  p.m.MsconfigserverApplication - Started MsconfigserverApplication in 4.676 seconds (JVM running for 4.901)
+2025-02-11 18:37:04 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-11 18:37:04 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-11 18:37:04 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-11 18:37:06 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-8368052076576180598\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-8368052076576180598/'
+2025-02-11 18:37:06 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-8368052076576180598\application.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-8368052076576180598/'
+2025-02-11 19:15:42 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\avillonc\AppData\Local\Temp\config-repo-8368052076576180598\.git\objects\pack\pack-4f5810b585b99e0a8b611c282b9d73678ec00d16.idx
+2025-02-11 19:15:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 19:15:59 [main] INFO  p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 9928 (C:\Proyecto-1\config-server\target\classes started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 19:15:59 [main] INFO  p.m.MsconfigserverApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 19:16:00 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f608e4a0-ab30-3300-a263-73eb81bfc8d9
+2025-02-11 19:16:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-02-11 19:16:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-02-11 19:16:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-11 19:16:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-11 19:16:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-11 19:16:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1573 ms
+2025-02-11 19:16:05 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 19:16:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-02-11 19:16:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-02-11 19:16:05 [main] INFO  p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.899 seconds (JVM running for 7.345)
+2025-02-11 19:17:03 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-11 19:17:03 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-11 19:17:03 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-11 19:17:05 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-4953310574858154590\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-4953310574858154590/'
+2025-02-11 19:17:05 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-4953310574858154590\application.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-4953310574858154590/'
+2025-02-11 19:39:14 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\avillonc\AppData\Local\Temp\config-repo-4953310574858154590\.git\objects\pack\pack-4f5810b585b99e0a8b611c282b9d73678ec00d16.idx
+2025-02-11 19:39:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 19:39:38 [main] INFO  p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 19708 (C:\Proyecto-1\config-server\target\classes started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 19:39:38 [main] INFO  p.m.MsconfigserverApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 19:39:39 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f608e4a0-ab30-3300-a263-73eb81bfc8d9
+2025-02-11 19:39:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-02-11 19:39:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-02-11 19:39:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-11 19:39:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-11 19:39:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-11 19:39:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+2025-02-11 19:39:44 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 19:39:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-02-11 19:39:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-02-11 19:39:44 [main] INFO  p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.835 seconds (JVM running for 7.271)
+2025-02-11 19:40:12 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-11 19:40:12 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-11 19:40:12 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-11 19:40:14 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-1021812003005380487\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-1021812003005380487/'
+2025-02-11 19:47:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-02-11 19:47:59 [main] INFO  p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 11.0.25 on NTTD-C6JKR54 with PID 19228 (C:\Proyecto-1\config-server\target\classes started by avillonc in C:\Proyecto-1\config-server)
+2025-02-11 19:47:59 [main] INFO  p.m.MsconfigserverApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-11 19:48:02 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f608e4a0-ab30-3300-a263-73eb81bfc8d9
+2025-02-11 19:48:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-02-11 19:48:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-02-11 19:48:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-11 19:48:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-02-11 19:48:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-11 19:48:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3664 ms
+2025-02-11 19:48:09 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-11 19:48:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-02-11 19:48:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-02-11 19:48:09 [main] INFO  p.m.MsconfigserverApplication - Started MsconfigserverApplication in 11.32 seconds (JVM running for 11.882)
+2025-02-11 19:48:12 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-11 19:48:12 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-11 19:48:12 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-11 19:48:13 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 19:48:26 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-transactions.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 19:48:41 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 19:56:58 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 19:58:01 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 19:58:22 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 20:02:10 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 20:02:35 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-customer.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 20:19:11 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-accounts.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 20:22:03 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-transactions.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'
+2025-02-11 20:26:02 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\avillonc\AppData\Local\Temp\config-repo-10052092391546998762\ms-credits.yml]' via location 'file:/C:/Users/avillonc/AppData/Local/Temp/config-repo-10052092391546998762/'

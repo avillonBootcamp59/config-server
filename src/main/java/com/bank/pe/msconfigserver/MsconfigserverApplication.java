@@ -1,4 +1,4 @@
-package proyecto1.msconfigserver;
+package com.bank.pe.msconfigserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

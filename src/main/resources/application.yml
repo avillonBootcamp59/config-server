@@ -12,12 +12,16 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/aliciaVillon/ms-admin-server-data.git
+          uri: https://github.com/avillonBootcamp59/ms-admin-server-data
           clone-on-start: true
           default-label: master
           search-paths: {application}
+  profiles:
+    active: local
 management:
   endpoints:
     web:
       exposure:
-        include: "health,info"
+        include: "*"
+encrypt:
+  key: padfbabadfbaefbadfbaertbnhbfmhgijluio004pazsckp

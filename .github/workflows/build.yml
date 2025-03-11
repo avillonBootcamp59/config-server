@@ -36,4 +36,8 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify sonar:sonar -Dsonar.projectKey=bootcamp59_config_server -Dsonar.token=$SONAR_TOKEN
+        run: mvn -B verify sonar:sonar \
+          -Dsonar.host.url=$SONAR_HOST_URL \
+          -Dsonar.organization=avillonBootcamp59 \
+          -Dsonar.projectKey=config_server \
+          -Dsonar.token=$SONAR_TOKEN

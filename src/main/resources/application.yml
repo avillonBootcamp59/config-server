@@ -6,8 +6,8 @@ spring:
     name: config-server
   security:
     user:
-      name: root
-      password: s3cr3t
+      name: avillon
+      password: 4v1ll0nJd
   cloud:
     config:
       server:
@@ -15,7 +15,7 @@ spring:
           uri: https://github.com/avillonBootcamp59/ms-admin-server-data
           clone-on-start: true
           default-label: master
-          search-paths: {application}
+          search-paths: /
   profiles:
     active: local
 management:
@@ -23,5 +23,3 @@ management:
     web:
       exposure:
         include: "*"
-encrypt:
-  key: padfbabadfbaefbadfbaertbnhbfmhgijluio004pazsckp

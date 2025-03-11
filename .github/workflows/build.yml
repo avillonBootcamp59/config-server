@@ -36,4 +36,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=bootcamp59_bank -Dsonar.projectName='bootcamp59_bank'
+        run: mvn -B verify sonar:sonar -Dsonar.projectKey=bootcamp59_config_server -Dsonar.token=$SONAR_TOKEN

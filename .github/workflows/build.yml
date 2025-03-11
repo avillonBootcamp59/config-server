@@ -5,7 +5,6 @@ on:
     branches:
       - master
 
-
 jobs:
   build:
     name: Build and analyze
@@ -37,6 +36,6 @@ jobs:
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
             -Dsonar.organization=avillonBootcamp59 \
-            -Dsonar.projectKey=config_server \
+            -Dsonar.projectKey=-Dsonar.projectKey=avillonBootcamp59_config-server \
             -Dsonar.token=${{ secrets.SONAR_TOKEN }}
 

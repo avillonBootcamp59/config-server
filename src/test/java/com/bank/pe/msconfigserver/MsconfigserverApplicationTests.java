@@ -1,4 +1,4 @@
-package com.bank.msconfigserver;
+package com.bank.pe.msconfigserver;
 
 
 class MsconfigserverApplicationTests {

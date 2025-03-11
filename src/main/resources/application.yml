@@ -6,18 +6,20 @@ spring:
     name: config-server
   security:
     user:
-      name: root
-      password: s3cr3t
+      name: avillon
+      password: 4v1ll0nJd
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/aliciaVillon/ms-admin-server-data.git
+          uri: https://github.com/avillonBootcamp59/ms-admin-server-data
           clone-on-start: true
           default-label: master
-          search-paths: {application}
+          search-paths: /
+  profiles:
+    active: local
 management:
   endpoints:
     web:
       exposure:
-        include: "health,info"
+        include: "*"

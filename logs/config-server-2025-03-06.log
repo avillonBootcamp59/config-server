@@ -1,0 +1,980 @@
+2025-03-06 00:01:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:01:22 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 19884 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 00:01:22 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:01:23 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'conversionServicePostProcessor' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] for bean 'conversionServicePostProcessor' since there is already [Root bean: class [org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class]] bound.
+2025-03-06 00:01:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 00:01:24 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'conversionServicePostProcessor', defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-03-06 00:04:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:04:28 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 16588 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 00:04:28 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:04:29 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'conversionServicePostProcessor' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] for bean 'conversionServicePostProcessor' since there is already [Root bean: class [org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class]] bound.
+2025-03-06 00:04:29 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 00:04:29 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'conversionServicePostProcessor', defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-03-06 00:08:25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:08:25 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 16892 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 00:08:25 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:08:26 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'conversionServicePostProcessor' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] for bean 'conversionServicePostProcessor' since there is already [Root bean: class [org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class]] bound.
+2025-03-06 00:08:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 00:08:26 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'conversionServicePostProcessor', defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-03-06 00:12:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:12:12 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 19556 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 00:12:12 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:12:13 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'conversionServicePostProcessor' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] for bean 'conversionServicePostProcessor' since there is already [Root bean: class [org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class]] bound.
+2025-03-06 00:12:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 00:12:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'conversionServicePostProcessor', defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-03-06 00:14:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:14:32 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 3556 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 00:14:32 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:14:34 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'conversionServicePostProcessor' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] for bean 'conversionServicePostProcessor' since there is already [Root bean: class [org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class]] bound.
+2025-03-06 00:14:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 00:14:34 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'conversionServicePostProcessor', defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-03-06 00:18:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:18:57 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.main' to org.springframework.boot.SpringApplication:
+
+    Property: spring.main
+    Value: "web-application-type=reactive"
+    Origin: class path resource [application.yml] - 20:5
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.SpringApplication]
+
+Action:
+
+Update your application's configuration
+
+2025-03-06 00:23:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:23:18 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:23:19 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'conversionServicePostProcessor' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] for bean 'conversionServicePostProcessor' since there is already [Root bean: class [org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=conversionServicePostProcessor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class]] bound.
+2025-03-06 00:23:19 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-06 00:23:19 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'conversionServicePostProcessor', defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/reactive/WebFluxSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-03-06 00:27:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 00:27:38 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 21052 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 00:27:38 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 00:27:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 00:27:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 00:27:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 00:27:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 00:27:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 00:27:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 00:27:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2119 ms
+2025-03-06 00:27:44 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 00:27:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a8ea6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6b379c, org.springframework.security.web.context.SecurityContextHolderFilter@45790cb, org.springframework.security.web.header.HeaderWriterFilter@256a5df0, org.springframework.security.web.authentication.logout.LogoutFilter@14ad42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186dcb05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cf88901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e7e7a7e, org.springframework.security.web.access.ExceptionTranslationFilter@5f9a8ddc, org.springframework.security.web.access.intercept.AuthorizationFilter@3e0855b0]
+2025-03-06 00:27:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 00:27:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 00:27:45 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.377 seconds (process running for 7.996)
+2025-03-06 00:28:03 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 00:28:03 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 00:28:03 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 00:28:04 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 00:33:41 [http-nio-8888-exec-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not fetch remote for master remote: https://github.com/avillonBootcamp59/ms-admin-server-data
+2025-03-06 00:33:41 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:29:02 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:31:42 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:32:43 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:37:25 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:47:38 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:51:03 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 01:59:46 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 02:02:00 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 02:03:16 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-7066808755298661861/'
+2025-03-06 02:17:16 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-7066808755298661861\.git\objects\pack\pack-5868224cdb3abbc7452ad29931920e3753e653e6.idx
+2025-03-06 02:17:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 02:17:20 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 19140 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 02:17:20 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 02:17:21 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 02:17:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 02:17:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 02:17:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 02:17:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 02:17:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 02:17:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2002 ms
+2025-03-06 02:17:25 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 02:17:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a8ea6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6b379c, org.springframework.security.web.context.SecurityContextHolderFilter@45790cb, org.springframework.security.web.header.HeaderWriterFilter@256a5df0, org.springframework.security.web.authentication.logout.LogoutFilter@14ad42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186dcb05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cf88901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e7e7a7e, org.springframework.security.web.access.ExceptionTranslationFilter@5f9a8ddc, org.springframework.security.web.access.intercept.AuthorizationFilter@3e0855b0]
+2025-03-06 02:17:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 02:17:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 02:17:26 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.111 seconds (process running for 7.715)
+2025-03-06 02:24:41 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 02:24:41 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 02:24:41 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-03-06 02:24:42 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-3516156305376137240\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-3516156305376137240/'
+2025-03-06 02:26:44 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-3516156305376137240\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-3516156305376137240/'
+2025-03-06 02:32:32 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-3516156305376137240\.git\objects\pack\pack-44562263c6936c172d968d4f5b6a0af2014e1262.idx
+2025-03-06 02:32:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 02:32:35 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 21056 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 02:32:35 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 02:32:37 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 02:32:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 02:32:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 02:32:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 02:32:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 02:32:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 02:32:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2081 ms
+2025-03-06 02:32:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 02:32:41 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 02:32:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 02:32:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 02:32:41 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.282 seconds (process running for 7.959)
+2025-03-06 02:33:25 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 02:33:25 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 02:33:25 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 02:33:26 [http-nio-8888-exec-1] WARN  o.s.c.c.s.e.EnvironmentController - Error getting the Environment with name=ms-gateway profiles=default label=null includeOrigin=true
+org.springframework.cloud.config.server.environment.FailedToConstructEnvironmentException: Could not construct context for config=ms-gateway profile=default label= includeOrigin=true; nested exception is mapping values are not allowed here
+ in 'reader', line 39, column 11:
+      security:
+              ^
+
+	at org.springframework.cloud.config.server.environment.NativeEnvironmentRepository.findOne(NativeEnvironmentRepository.java:165)
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:64)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:195)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:178)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75)
+	at io.micrometer.observation.Observation.lambda$observe$4(Observation.java:544)
+	at io.micrometer.observation.Observation.observeWithContext(Observation.java:603)
+	at io.micrometer.observation.Observation.observe(Observation.java:544)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75)
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:82)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75)
+	at io.micrometer.observation.Observation.lambda$observe$4(Observation.java:544)
+	at io.micrometer.observation.Observation.observeWithContext(Observation.java:603)
+	at io.micrometer.observation.Observation.observe(Observation.java:544)
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75)
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:134)
+	at org.springframework.cloud.config.server.environment.EnvironmentController.defaultLabelIncludeOrigin(EnvironmentController.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.defaultLabelIncludeOrigin(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 39, column 11:
+      security:
+              ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:927)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:416)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:263)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:662)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:239)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:208)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:168)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:499)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:199)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:96)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:132)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.applyTo(ConfigDataEnvironmentPostProcessor.java:169)
+	at org.springframework.cloud.config.server.environment.NativeEnvironmentRepository.findOne(NativeEnvironmentRepository.java:145)
+	... 145 common frames omitted
+2025-03-06 02:36:32 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-3503033658684492886\.git\objects\pack\pack-6eb3342f53ca2a0a92aecee584d97a9bf59137ef.idx
+2025-03-06 02:36:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 02:36:35 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 20064 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 02:36:35 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 02:36:36 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 02:36:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 02:36:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 02:36:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 02:36:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 02:36:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 02:36:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2028 ms
+2025-03-06 02:36:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 02:36:40 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 02:36:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 02:36:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 02:36:41 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.17 seconds (process running for 7.817)
+2025-03-06 02:36:58 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 02:36:58 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 02:36:58 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 02:36:59 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 02:37:22 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 02:44:33 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 02:53:08 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 02:55:29 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 02:59:44 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:15:52 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:16:22 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:19:32 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:25:12 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:31:13 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:35:49 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:37:11 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:39:51 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:45:27 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:52:08 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:53:27 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 03:55:31 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 04:07:46 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-15537554629815720703\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-15537554629815720703/'
+2025-03-06 09:51:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 09:51:55 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 8136 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 09:51:55 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 09:51:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 09:51:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 09:51:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 09:51:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 09:51:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 09:51:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 09:51:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1774 ms
+2025-03-06 09:52:00 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 09:52:00 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ac3a6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fee7ca, org.springframework.security.web.context.SecurityContextHolderFilter@407b41e6, org.springframework.security.web.header.HeaderWriterFilter@3e998033, org.springframework.security.web.authentication.logout.LogoutFilter@612ac38b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e23ee0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cfd08e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76f9e000, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29c80149, org.springframework.security.web.access.ExceptionTranslationFilter@7a34c1f6, org.springframework.security.web.access.intercept.AuthorizationFilter@2cd5b19c]
+2025-03-06 09:52:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 09:52:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 09:52:01 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.873 seconds (process running for 7.954)
+2025-03-06 09:52:48 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 09:52:48 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 09:52:48 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 09:52:49 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-13390352754800638514\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-13390352754800638514/'
+2025-03-06 09:57:31 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-13390352754800638514\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-13390352754800638514/'
+2025-03-06 10:22:11 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-13390352754800638514\.git\objects\pack\pack-e1ce0f54ff56196f7b7e38986797409d65e52418.idx
+2025-03-06 10:22:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 10:22:14 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 8624 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 10:22:14 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 10:22:15 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 10:22:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 10:22:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 10:22:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 10:22:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 10:22:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 10:22:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2099 ms
+2025-03-06 10:22:19 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 10:22:19 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 10:22:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 10:22:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 10:22:20 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.25 seconds (process running for 7.854)
+2025-03-06 10:22:45 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 10:22:45 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 10:22:45 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 10:22:46 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4283803303694012483\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4283803303694012483/'
+2025-03-06 10:28:21 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4283803303694012483\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4283803303694012483/'
+2025-03-06 10:29:55 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4283803303694012483\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4283803303694012483/'
+2025-03-06 10:53:14 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-4283803303694012483\.git\objects\pack\pack-5a2fd151ebd95120012d7e85b9fdb74595af9948.idx
+2025-03-06 10:53:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 10:53:17 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 3984 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 10:53:17 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 10:53:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 10:53:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 10:53:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 10:53:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 10:53:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 10:53:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 10:53:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1809 ms
+2025-03-06 10:53:22 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 10:53:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 10:53:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 10:53:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 10:53:22 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.522 seconds (process running for 7.079)
+2025-03-06 10:53:54 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 10:53:54 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 10:53:54 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 10:53:56 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2464467384113371175\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2464467384113371175/'
+2025-03-06 11:24:39 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-2464467384113371175\.git\objects\pack\pack-c65c815bb59a73e23ee7ba2beb23f6caf2757e7f.idx
+2025-03-06 11:24:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 11:24:41 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 7420 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 11:24:41 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 11:24:43 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 11:24:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 11:24:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 11:24:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 11:24:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 11:24:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 11:24:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1784 ms
+2025-03-06 11:24:46 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 11:24:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 11:24:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 11:24:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 11:24:47 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.695 seconds (process running for 7.252)
+2025-03-06 11:25:01 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 11:25:01 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 11:25:01 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 11:25:02 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-1302584445454933837\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-1302584445454933837/'
+2025-03-06 11:25:17 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-1302584445454933837\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-1302584445454933837/'
+2025-03-06 11:33:14 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-1302584445454933837\.git\objects\pack\pack-719669b35cd1fdc3ebfb6bfae5f80a97ed68b5b3.idx
+2025-03-06 11:33:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 11:33:17 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 15372 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 11:33:17 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 11:33:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 11:33:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 11:33:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 11:33:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 11:33:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 11:33:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 11:33:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1954 ms
+2025-03-06 11:33:22 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 11:33:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@fee7ca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29c80149, org.springframework.security.web.context.SecurityContextHolderFilter@3291d9c2, org.springframework.security.web.header.HeaderWriterFilter@e1a150c, org.springframework.security.web.authentication.logout.LogoutFilter@9f2fe2e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@b144175, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54ca9420, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7612116b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14ad42, org.springframework.security.web.access.ExceptionTranslationFilter@6e9f8160, org.springframework.security.web.access.intercept.AuthorizationFilter@7109b603]
+2025-03-06 11:33:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 11:33:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 11:33:23 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.205 seconds (process running for 7.788)
+2025-03-06 11:34:22 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 11:34:22 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 11:34:22 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-03-06 11:34:23 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-8921060454501780743\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-8921060454501780743/'
+2025-03-06 11:35:41 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-8921060454501780743\.git\objects\pack\pack-e61c80a3a5ae9497f6a7095321dafb01d575df0e.idx
+2025-03-06 11:35:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 11:35:43 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 8316 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 11:35:43 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 11:35:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 11:35:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 11:35:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 11:35:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 11:35:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 11:35:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 11:35:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1729 ms
+2025-03-06 11:35:48 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 11:35:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a8ea6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6b379c, org.springframework.security.web.context.SecurityContextHolderFilter@45790cb, org.springframework.security.web.header.HeaderWriterFilter@256a5df0, org.springframework.security.web.authentication.logout.LogoutFilter@14ad42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186dcb05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cf88901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e7e7a7e, org.springframework.security.web.access.ExceptionTranslationFilter@5f9a8ddc, org.springframework.security.web.access.intercept.AuthorizationFilter@3e0855b0]
+2025-03-06 11:35:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 11:35:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 11:35:48 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.413 seconds (process running for 6.995)
+2025-03-06 11:35:57 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 11:35:57 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 11:35:57 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 11:35:58 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4976735438160669744/'
+2025-03-06 11:36:12 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4976735438160669744/'
+2025-03-06 11:40:54 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4976735438160669744/'
+2025-03-06 11:42:44 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4976735438160669744/'
+2025-03-06 11:45:45 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4976735438160669744/'
+2025-03-06 12:00:39 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-4976735438160669744/'
+2025-03-06 12:01:38 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-4976735438160669744\.git\objects\pack\pack-e61c80a3a5ae9497f6a7095321dafb01d575df0e.idx
+2025-03-06 12:01:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 12:01:41 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 19044 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 12:01:41 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 12:01:42 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 12:01:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 12:01:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 12:01:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 12:01:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 12:01:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 12:01:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1777 ms
+2025-03-06 12:01:46 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 12:01:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 12:01:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 12:01:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 12:01:46 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.429 seconds (process running for 6.976)
+2025-03-06 12:04:00 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-9300072733047012276\.git\objects\pack\pack-fa811b12d0298514fb8198e5d23a098b793e38ae.idx
+2025-03-06 12:04:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 12:04:03 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 18940 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 12:04:03 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 12:04:04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 12:04:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 12:04:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 12:04:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 12:04:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 12:04:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 12:04:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1780 ms
+2025-03-06 12:04:08 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 12:04:08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 12:04:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 12:04:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 12:04:08 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.56 seconds (process running for 7.095)
+2025-03-06 12:04:19 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 12:04:19 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 12:04:19 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 12:04:20 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 12:04:28 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 12:05:07 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 12:10:58 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 12:11:48 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 12:11:58 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 12:55:48 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-12990847850193247480/'
+2025-03-06 13:25:50 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-12990847850193247480\.git\objects\pack\pack-fa811b12d0298514fb8198e5d23a098b793e38ae.idx
+2025-03-06 13:25:53 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 13:25:53 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 15724 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 13:25:53 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 13:25:54 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 13:25:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 13:25:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 13:25:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 13:25:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 13:25:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 13:25:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1915 ms
+2025-03-06 13:25:58 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 13:25:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a8ea6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6b379c, org.springframework.security.web.context.SecurityContextHolderFilter@45790cb, org.springframework.security.web.header.HeaderWriterFilter@256a5df0, org.springframework.security.web.authentication.logout.LogoutFilter@14ad42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186dcb05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cf88901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e7e7a7e, org.springframework.security.web.access.ExceptionTranslationFilter@5f9a8ddc, org.springframework.security.web.access.intercept.AuthorizationFilter@3e0855b0]
+2025-03-06 13:25:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 13:25:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 13:25:59 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.99 seconds (process running for 7.471)
+2025-03-06 13:26:38 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 13:26:38 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 13:26:38 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 13:26:39 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-6176651635103251038\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-6176651635103251038/'
+2025-03-06 13:26:58 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-6176651635103251038\.git\objects\pack\pack-ffa9cdcc2d6f3425489953004548e220635baa77.idx
+2025-03-06 13:27:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 13:27:01 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 7764 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 13:27:01 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 13:27:02 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 13:27:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 13:27:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 13:27:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 13:27:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 13:27:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 13:27:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2024 ms
+2025-03-06 13:27:06 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 13:27:06 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 13:27:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 13:27:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 13:27:07 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.798 seconds (process running for 7.463)
+2025-03-06 13:27:33 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 13:27:33 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 13:27:33 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 13:27:34 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11427641204275592787\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11427641204275592787/'
+2025-03-06 13:40:14 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-11427641204275592787\.git\objects\pack\pack-ffa9cdcc2d6f3425489953004548e220635baa77.idx
+2025-03-06 13:40:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 13:40:17 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 8820 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 13:40:17 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 13:40:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 13:40:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 13:40:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 13:40:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 13:40:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 13:40:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 13:40:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1936 ms
+2025-03-06 13:40:22 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 13:40:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a8ea6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6b379c, org.springframework.security.web.context.SecurityContextHolderFilter@45790cb, org.springframework.security.web.header.HeaderWriterFilter@256a5df0, org.springframework.security.web.authentication.logout.LogoutFilter@14ad42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186dcb05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cf88901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e7e7a7e, org.springframework.security.web.access.ExceptionTranslationFilter@5f9a8ddc, org.springframework.security.web.access.intercept.AuthorizationFilter@3e0855b0]
+2025-03-06 13:40:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 13:40:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 13:40:23 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.867 seconds (process running for 7.456)
+2025-03-06 13:41:01 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 13:41:02 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 13:41:02 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 13:41:03 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 13:41:17 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 13:41:27 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 13:54:53 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 13:55:31 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 13:57:56 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 13:59:26 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 14:03:48 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 14:04:18 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 14:07:38 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 14:10:59 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 14:11:51 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-11400046960684077566/'
+2025-03-06 14:11:58 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-11400046960684077566\.git\objects\pack\pack-c18db48e2a1807c26eaa0f02ef4ce44c9217b86e.idx
+2025-03-06 14:12:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 14:12:00 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 4652 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 14:12:00 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 14:12:02 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 14:12:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 14:12:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 14:12:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 14:12:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 14:12:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 14:12:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1950 ms
+2025-03-06 14:12:06 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 14:12:06 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 14:12:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 14:12:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 14:12:06 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.832 seconds (process running for 7.415)
+2025-03-06 14:12:51 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 14:12:51 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 14:12:51 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 14:12:52 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-17112093382004817809\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-17112093382004817809/'
+2025-03-06 14:16:28 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-17112093382004817809\.git\objects\pack\pack-c18db48e2a1807c26eaa0f02ef4ce44c9217b86e.idx
+2025-03-06 14:16:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 14:16:31 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 12988 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 14:16:31 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 14:16:32 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 14:16:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 14:16:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 14:16:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 14:16:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 14:16:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 14:16:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1884 ms
+2025-03-06 14:16:36 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 14:16:36 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a8ea6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e6b379c, org.springframework.security.web.context.SecurityContextHolderFilter@45790cb, org.springframework.security.web.header.HeaderWriterFilter@256a5df0, org.springframework.security.web.authentication.logout.LogoutFilter@14ad42, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186dcb05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cf88901, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f2fe2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e7e7a7e, org.springframework.security.web.access.ExceptionTranslationFilter@5f9a8ddc, org.springframework.security.web.access.intercept.AuthorizationFilter@3e0855b0]
+2025-03-06 14:16:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 14:16:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 14:16:36 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.578 seconds (process running for 7.186)
+2025-03-06 14:16:45 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 14:16:45 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 14:16:45 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 14:16:46 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-896269676710472226\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-896269676710472226/'
+2025-03-06 14:23:49 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-896269676710472226\.git\objects\pack\pack-1d83851367661662406a50bedb27b4019d8eb38c.idx
+2025-03-06 14:23:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 14:23:51 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 1772 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 14:23:51 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 14:23:53 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 14:23:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 14:23:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 14:23:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 14:23:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 14:23:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 14:23:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1896 ms
+2025-03-06 14:23:56 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 14:23:56 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 14:23:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 14:23:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 14:23:57 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.693 seconds (process running for 7.256)
+2025-03-06 14:24:08 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 14:24:08 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 14:24:08 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 14:24:09 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 14:24:31 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 14:24:37 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 14:24:54 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 15:05:54 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Fetched for remote master and found 1 updates
+2025-03-06 15:05:54 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 15:08:55 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 15:14:12 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 15:16:06 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 15:30:23 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16181539930496367227/'
+2025-03-06 15:33:02 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-16181539930496367227\.git\objects\pack\pack-9a237e88a8ed734486cb30ff204e2a79e486b369.idx
+2025-03-06 15:33:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 15:33:05 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 12908 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 15:33:05 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 15:33:06 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 15:33:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 15:33:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 15:33:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 15:33:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 15:33:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 15:33:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1773 ms
+2025-03-06 15:33:09 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 15:33:10 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 15:33:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 15:33:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 15:33:10 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.551 seconds (process running for 7.089)
+2025-03-06 15:34:07 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 15:34:07 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 15:34:07 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 15:34:08 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-3470856398357021491\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-3470856398357021491/'
+2025-03-06 15:49:43 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-3470856398357021491\.git\objects\pack\pack-dafe3e08217e5d0afd367c7c7ccbab14c3fbdcdb.idx
+2025-03-06 15:49:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 15:49:45 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 19660 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 15:49:45 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 15:49:47 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 15:49:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 15:49:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 15:49:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 15:49:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 15:49:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 15:49:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1741 ms
+2025-03-06 15:49:50 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 15:49:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38923cfe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ac3a6f, org.springframework.security.web.context.SecurityContextHolderFilter@527d5e48, org.springframework.security.web.header.HeaderWriterFilter@6e9f8160, org.springframework.security.web.authentication.logout.LogoutFilter@3c910acd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f7ae05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3291d9c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72c704f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fee7ca, org.springframework.security.web.access.ExceptionTranslationFilter@7af9595d, org.springframework.security.web.access.intercept.AuthorizationFilter@6866e740]
+2025-03-06 15:49:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 15:49:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 15:49:51 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.508 seconds (process running for 7.003)
+2025-03-06 15:50:07 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 15:50:07 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 15:50:07 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 15:50:08 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-289562310963297749\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-289562310963297749/'
+2025-03-06 15:50:35 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-289562310963297749\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-289562310963297749/'
+2025-03-06 16:13:53 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Fetched for remote master and found 1 updates
+2025-03-06 16:13:53 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-289562310963297749\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-289562310963297749/'
+2025-03-06 16:15:16 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-289562310963297749\.git\objects\pack\pack-a407b723b1ddfcf088ec6769bbe47da38b31674d.idx
+2025-03-06 16:15:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 16:15:18 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 16180 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 16:15:18 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 16:15:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 16:15:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 16:15:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 16:15:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 16:15:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 16:15:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 16:15:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1755 ms
+2025-03-06 16:15:23 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 16:15:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ac3a6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fee7ca, org.springframework.security.web.context.SecurityContextHolderFilter@407b41e6, org.springframework.security.web.header.HeaderWriterFilter@3e998033, org.springframework.security.web.authentication.logout.LogoutFilter@612ac38b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e23ee0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cfd08e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76f9e000, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29c80149, org.springframework.security.web.access.ExceptionTranslationFilter@7a34c1f6, org.springframework.security.web.access.intercept.AuthorizationFilter@2cd5b19c]
+2025-03-06 16:15:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 16:15:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 16:15:24 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.404 seconds (process running for 7.039)
+2025-03-06 16:16:07 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 16:16:07 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 16:16:07 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 16:16:08 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-1041925582949824206\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-1041925582949824206/'
+2025-03-06 16:16:19 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-1041925582949824206\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-1041925582949824206/'
+2025-03-06 16:16:30 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-1041925582949824206\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-1041925582949824206/'
+2025-03-06 16:19:51 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-1041925582949824206\.git\objects\pack\pack-d224ee43f566dc5d18082979fb455ff5d58d2d49.idx
+2025-03-06 16:19:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 16:19:54 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 21496 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 16:19:54 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 16:19:55 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 16:19:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 16:19:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 16:19:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 16:19:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 16:19:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 16:19:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1710 ms
+2025-03-06 16:19:59 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 16:19:59 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 16:19:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 16:19:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 16:19:59 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.292 seconds (process running for 6.834)
+2025-03-06 16:20:23 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 16:20:23 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 16:20:23 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 16:20:24 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16125571419493760129\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16125571419493760129/'
+2025-03-06 16:20:44 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16125571419493760129\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16125571419493760129/'
+2025-03-06 16:21:00 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-16125571419493760129\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-16125571419493760129/'
+2025-03-06 16:32:12 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-16125571419493760129\.git\objects\pack\pack-6c079c88948b542db3608ede6d2db223153d8a6f.idx
+2025-03-06 16:32:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 16:32:15 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 6752 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 16:32:15 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 16:32:16 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 16:32:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 16:32:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 16:32:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 16:32:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 16:32:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 16:32:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1824 ms
+2025-03-06 16:32:20 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 16:32:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ac3a6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fee7ca, org.springframework.security.web.context.SecurityContextHolderFilter@407b41e6, org.springframework.security.web.header.HeaderWriterFilter@3e998033, org.springframework.security.web.authentication.logout.LogoutFilter@612ac38b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e23ee0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cfd08e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76f9e000, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29c80149, org.springframework.security.web.access.ExceptionTranslationFilter@7a34c1f6, org.springframework.security.web.access.intercept.AuthorizationFilter@2cd5b19c]
+2025-03-06 16:32:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 16:32:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 16:32:20 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.767 seconds (process running for 7.338)
+2025-03-06 16:33:06 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 16:33:06 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 16:33:06 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 16:33:07 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 16:33:16 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 16:33:24 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 16:41:46 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 17:01:00 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 17:04:07 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 17:12:03 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10414016153612371114/'
+2025-03-06 17:16:48 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-10414016153612371114\.git\objects\pack\pack-3be7fe4c7f798ec7e5351b95797ade23967fc76b.idx
+2025-03-06 17:16:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 17:16:55 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 19436 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 17:16:55 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 17:16:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 17:16:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 17:16:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 17:16:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 17:16:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 17:16:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 17:16:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1745 ms
+2025-03-06 17:17:01 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 17:17:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 17:17:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 17:17:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 17:17:01 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.4 seconds (process running for 7.903)
+2025-03-06 17:18:00 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 17:18:00 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 17:18:00 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 17:18:02 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-6007829519628661004\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-6007829519628661004/'
+2025-03-06 17:18:45 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-6007829519628661004\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-6007829519628661004/'
+2025-03-06 17:28:37 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-6007829519628661004\.git\objects\pack\pack-926bbb5ccd173c9229be6b8ef0436e30d717705e.idx
+2025-03-06 17:28:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 17:28:39 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 4360 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 17:28:39 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 17:28:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 17:28:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 17:28:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 17:28:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 17:28:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 17:28:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 17:28:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1727 ms
+2025-03-06 17:28:44 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 17:28:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 17:28:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 17:28:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 17:28:45 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.511 seconds (process running for 7.045)
+2025-03-06 17:37:31 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 17:37:31 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 17:37:31 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 17:37:32 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10639367041564293305\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10639367041564293305/'
+2025-03-06 17:40:18 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10639367041564293305\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10639367041564293305/'
+2025-03-06 20:11:22 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10639367041564293305\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10639367041564293305/'
+2025-03-06 20:17:42 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-10639367041564293305\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-10639367041564293305/'
+2025-03-06 20:18:32 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-10639367041564293305\.git\objects\pack\pack-926bbb5ccd173c9229be6b8ef0436e30d717705e.idx
+2025-03-06 20:18:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 20:18:35 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 21360 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 20:18:35 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 20:18:36 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 20:18:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 20:18:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 20:18:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:18:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 20:18:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:18:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2073 ms
+2025-03-06 20:18:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 20:18:40 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299786b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f8d9b0, org.springframework.security.web.context.SecurityContextHolderFilter@7af9595d, org.springframework.security.web.header.HeaderWriterFilter@651caa2e, org.springframework.security.web.authentication.logout.LogoutFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11f9b95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f8160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@407b41e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.access.ExceptionTranslationFilter@4f6ff62, org.springframework.security.web.access.intercept.AuthorizationFilter@b4d83ac]
+2025-03-06 20:18:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 20:18:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 20:18:41 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.989 seconds (process running for 7.568)
+2025-03-06 20:19:33 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-10058993026025792842\.git\objects\pack\pack-dfd4917d3667412873d83789b2863f49d08fa8b6.idx
+2025-03-06 20:19:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 20:19:35 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 21972 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 20:19:35 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 20:19:37 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 20:19:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 20:19:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 20:19:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:19:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 20:19:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:19:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1868 ms
+2025-03-06 20:19:41 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 20:19:41 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38923cfe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ac3a6f, org.springframework.security.web.context.SecurityContextHolderFilter@527d5e48, org.springframework.security.web.header.HeaderWriterFilter@6e9f8160, org.springframework.security.web.authentication.logout.LogoutFilter@3c910acd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f7ae05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3291d9c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72c704f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fee7ca, org.springframework.security.web.access.ExceptionTranslationFilter@7af9595d, org.springframework.security.web.access.intercept.AuthorizationFilter@6866e740]
+2025-03-06 20:19:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 20:19:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 20:19:41 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 7.072 seconds (process running for 7.608)
+2025-03-06 20:19:52 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 20:19:52 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 20:19:52 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-06 20:19:53 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-5300786156667858897\ms-authentication.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-5300786156667858897/'
+2025-03-06 20:20:09 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-5300786156667858897\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-5300786156667858897/'
+2025-03-06 20:20:34 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-5300786156667858897\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-5300786156667858897/'
+2025-03-06 20:20:38 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-5300786156667858897\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-5300786156667858897/'
+2025-03-06 20:21:06 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-5300786156667858897\ms-gateway.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-5300786156667858897/'
+2025-03-06 20:24:01 [Thread-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\Alicia\AppData\Local\Temp\config-repo-5300786156667858897\.git\objects\pack\pack-dfd4917d3667412873d83789b2863f49d08fa8b6.idx
+2025-03-06 20:24:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-03-06 20:24:03 [main] INFO  c.b.p.m.MsconfigserverApplication - Starting MsconfigserverApplication using Java 17.0.12 with PID 20860 (E:\Bootcamp 59\config-server\target\classes started by Alicia in E:\Bootcamp 59\config-server)
+2025-03-06 20:24:03 [main] INFO  c.b.p.m.MsconfigserverApplication - The following 1 profile is active: "local"
+2025-03-06 20:24:05 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6e94c794-cad6-3c7a-af9d-920240ef0858
+2025-03-06 20:24:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2025-03-06 20:24:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2025-03-06 20:24:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-06 20:24:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.12]
+2025-03-06 20:24:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-06 20:24:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2066 ms
+2025-03-06 20:24:09 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/actuator'
+2025-03-06 20:24:09 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c610f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@773c7147, org.springframework.security.web.context.SecurityContextHolderFilter@3c910acd, org.springframework.security.web.header.HeaderWriterFilter@73a5d86c, org.springframework.security.web.authentication.logout.LogoutFilter@5bccaedb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e6b379c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f2fe2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bb1c1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abc5854, org.springframework.security.web.access.ExceptionTranslationFilter@131777e8, org.springframework.security.web.access.intercept.AuthorizationFilter@47fca3cc]
+2025-03-06 20:24:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2025-03-06 20:24:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2025-03-06 20:24:09 [main] INFO  c.b.p.m.MsconfigserverApplication - Started MsconfigserverApplication in 6.81 seconds (process running for 7.407)
+2025-03-06 20:25:03 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 20:25:03 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-06 20:25:03 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-06 20:25:04 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:27:00 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:27:52 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:28:35 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:30:57 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:30:59 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:31:36 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:40:57 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'
+2025-03-06 20:41:25 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\Alicia\AppData\Local\Temp\config-repo-2713869988791518284\ms-customer.yml]' via location 'file:/C:/Users/Alicia/AppData/Local/Temp/config-repo-2713869988791518284/'

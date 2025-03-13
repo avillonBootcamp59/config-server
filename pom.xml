@@ -9,7 +9,7 @@
 		<relativePath/>
 	</parent>
 	<groupId>pe.gob.hospitalcayetano</groupId>
-	<artifactId>ms-config-server</artifactId>
+	<artifactId>config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>config-server</name>
 	<description>Microservicio para la gestión de configuracion</description>
@@ -68,7 +68,7 @@
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>3.9.0.2155</version>
-			</plugin> 
+			</plugin>
 		</plugins>
 	</build>
 </project>
